@@ -1,0 +1,16 @@
+{
+  "name": "recruiter-agent",
+  "version": "0.0.0",
+  "description": "Local-first CLI for resume review, job research packets, and application workflow tracking.",
+  "type": "module",
+  "bin": {
+    "recruiter-agent": "./bin/recruiter-agent.mjs"
+  },
+  "scripts": {
+    "doctor": "node bin/recruiter-agent.mjs doctor",
+    "status": "node bin/recruiter-agent.mjs status",
+    "smoke": "node scripts/smoke-test.mjs",
+    "test": "node --test 'test/**/*.test.mjs'"
+  },
+  "license": "MIT"
+}

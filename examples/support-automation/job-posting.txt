@@ -1,0 +1,25 @@
+Northstar Analytics is hiring a Support Automation Analyst to improve internal
+support workflows, build lightweight tooling, and help QA and operations teams
+turn customer signals into repeatable fixes.
+
+Location: Remote US
+Posting URL: https://northstar-analytics.example/careers/support-automation-analyst
+
+Responsibilities:
+- Build lightweight JavaScript or Node.js tools for ticket triage, backlog reporting, and support quality checks.
+- Partner with QA, product, and engineering on release readiness and defect reproduction.
+- Maintain documentation, workflow playbooks, and stakeholder-facing status summaries.
+- Use SQL or spreadsheet-based analysis to identify recurring support patterns.
+
+Required skills:
+- JavaScript or Node.js
+- Support operations or customer support workflow experience
+- Ticket triage and escalation workflows
+- Documentation and release communication
+- QA coordination or defect reproduction
+- Clear stakeholder communication
+
+Nice to have:
+- Zendesk administration
+- SQL reporting
+- Experience with remote-first software teams

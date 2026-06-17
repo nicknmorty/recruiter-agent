@@ -1,0 +1,190 @@
+Recruiter Agent Resume Review
+Score: 75/100
+Job Fit: 71/100 (moderate)
+
+Top Findings
+1. [medium] job-match: Hard requirements with no resume evidence: stakeholder.
+2. [low] wording: Filler phrase detected: responsible for.
+3. [low] wording: Filler phrase detected: worked on.
+
+Summary
+- Lines: 19
+- Sections detected: education, professional experience, skills, summary
+- Bullets: 7
+- Quantified bullets: 3 (43%)
+- Action-verb bullets: 5 (71%)
+- Job posting compared: yes
+- User notes compared: no
+
+User Notes Context
+- Not checked: no notes file supplied.
+
+Job Posting Safety
+- No suspicious posting instructions detected by deterministic checks.
+
+Job Posting Signals
+- Requirements: automation, communication, coordination, documentation, javascript, node.js, operations, stakeholder, support, ticket, triage, workflow
+- Nice-to-haves: none detected
+- Seniority: none detected
+- Domain keywords: support, automation, documentation, node.js, analyst, build, communication, coordination, examplesoft, improve, javascript, lightweight
+
+Job Posting Sources
+- No URLs found in the job posting.
+
+Requirement Evidence
+- [partial] automation
+  Resume keyword evidence: automation
+- [partial] communication
+  Matched via: documentation
+  Resume keyword evidence: communications, documentation
+- [matched] coordination
+  Evidence: - Worked on platform support and release coordination for internal operations teams.
+- [partial] documentation (concept: communication)
+  Matched via: communication
+  Resume keyword evidence: documentation, communications
+- [partial] javascript
+  Resume keyword evidence: javascript
+- [matched] node.js
+  Evidence: - Shipped a Node.js reporting script that saved 6 hours of manual spreadsheet work each week.
+- [matched] operations
+  Evidence: - Worked on platform support and release coordination for internal operations teams.
+- [missing] stakeholder
+  Evidence: none found in resume.
+- [matched] support
+  Evidence: - Built a ticket triage checklist used by 14 support teammates and reduced missed escalation notes by 32%.
+  Evidence: - Worked on platform support and release coordination for internal operations teams.
+  Evidence: - Improved onboarding docs for 5 new hires across support and QA.
+- [matched] ticket
+  Evidence: - Built a ticket triage checklist used by 14 support teammates and reduced missed escalation notes by 32%.
+- [matched] triage
+  Evidence: - Built a ticket triage checklist used by 14 support teammates and reduced missed escalation notes by 32%.
+- [partial] workflow
+  Resume keyword evidence: workflows
+
+Truthful Tailoring Opportunities
+- [strengthen-evidence] automation: Resume keyword evidence exists for automation, but no matching bullet was found.
+  Question: Do you have a truthful accomplishment, project, or responsibility that shows automation in action?
+- [strengthen-evidence] communication: Resume keyword evidence exists for communication, but no matching bullet was found.
+  Question: Do you have a truthful accomplishment, project, or responsibility that shows communication in action?
+- [preserve-strength] coordination: Keep coordination visible near the most relevant role or skills section.
+- [strengthen-evidence] documentation: Resume keyword evidence exists for documentation, but no matching bullet was found.
+  Question: Do you have a truthful accomplishment, project, or responsibility that shows documentation in action?
+- [strengthen-evidence] javascript: Resume keyword evidence exists for javascript, but no matching bullet was found.
+  Question: Do you have a truthful accomplishment, project, or responsibility that shows javascript in action?
+- [preserve-strength] node.js: Keep node.js visible near the most relevant role or skills section.
+- [preserve-strength] operations: Keep operations visible near the most relevant role or skills section.
+- [missing-evidence] stakeholder: No deterministic resume evidence was found for stakeholder. Do not add it unless it reflects real experience.
+  Question: Is stakeholder a real skill, tool, or responsibility you can support with an example?
+- [preserve-strength] support: Keep support visible near the most relevant role or skills section.
+- [preserve-strength] ticket: Keep ticket visible near the most relevant role or skills section.
+
+Job Fit
+- Fit score: 71/100 (moderate)
+- Requirements matched/partial/missing: 6/5/1 of 12
+- Explanation: 6 of 12 hard requirements have direct resume bullet evidence, 5 have keyword-only evidence, 1 have no deterministic evidence. Strengthen real bullet evidence for: automation, communication, documentation, javascript, workflow. Confirm whether these reflect real experience before claiming them: stakeholder. This deterministic fit signal reflects keyword/bullet overlap only, not a hiring decision.
+
+Interview Talking Points
+- [clarify-evidence] automation: Prepare a truthful, specific story that shows automation in action; the resume only lists it as a keyword.
+  Question: What real accomplishment best demonstrates automation?
+- [clarify-evidence] communication: Prepare a truthful, specific story that shows communication in action; the resume only lists it as a keyword.
+  Question: What real accomplishment best demonstrates communication?
+- [strength-story] coordination: Be ready to walk through a concrete coordination example from your resume.
+  Evidence: - Worked on platform support and release coordination for internal operations teams.
+- [clarify-evidence] documentation: Prepare a truthful, specific story that shows documentation in action; the resume only lists it as a keyword.
+  Question: What real accomplishment best demonstrates documentation?
+- [clarify-evidence] javascript: Prepare a truthful, specific story that shows javascript in action; the resume only lists it as a keyword.
+  Question: What real accomplishment best demonstrates javascript?
+- [strength-story] node.js: Be ready to walk through a concrete node.js example from your resume.
+  Evidence: - Shipped a Node.js reporting script that saved 6 hours of manual spreadsheet work each week.
+- [strength-story] operations: Be ready to walk through a concrete operations example from your resume.
+  Evidence: - Worked on platform support and release coordination for internal operations teams.
+- [address-gap] stakeholder: Decide honestly how to address stakeholder if asked; do not overstate experience you do not have.
+  Question: Do you have transferable or adjacent experience for stakeholder you can speak to truthfully?
+- [strength-story] support: Be ready to walk through a concrete support example from your resume.
+  Evidence: - Built a ticket triage checklist used by 14 support teammates and reduced missed escalation notes by 32%.
+- [strength-story] ticket: Be ready to walk through a concrete ticket example from your resume.
+  Evidence: - Built a ticket triage checklist used by 14 support teammates and reduced missed escalation notes by 32%.
+
+Issues
+- [low] wording: Filler phrase detected: responsible for.
+  Recommendation: Replace generic traits with specific evidence from work, projects, or outcomes.
+- [low] wording: Filler phrase detected: worked on.
+  Recommendation: Replace generic traits with specific evidence from work, projects, or outcomes.
+- [medium] job-match: Job posting terms not found in resume: analyst, build, communication, improve, lightweight, partner, readiness, stakeholder, tools, workflow, write.
+  Recommendation: Only add missing terms when they truthfully describe real experience or relevant projects.
+
+Suggested Edits
+- [replace-filler]
+  Before: - Worked on platform support and release coordination for internal operations teams.
+  Suggested: - [rephrase: worked on ->] platform support and release coordination for internal operations teams; replace the marked filler with a concrete, truthful action and add scope/result if available.
+  Diff:
+    - - Worked on platform support and release coordination for internal operations teams.
+    + - [rephrase: worked on ->] platform support and release coordination for internal operations teams; replace the marked filler with a concrete, truthful action and add scope/result if available.
+  Why: Filler phrase "worked on" is generic and should be replaced with specific work evidence.
+  Evidence required: What specific contribution, responsibility, project, or outcome does this phrase refer to? Can you support it with truthful scope, frequency, stakeholders, or result?
+- [replace-filler]
+  Before: - Responsible for customer feedback tracking and internal status summaries.
+  Suggested: - [rephrase: responsible for ->] customer feedback tracking and internal status summaries; replace the marked filler with a concrete, truthful action and add scope/result if available.
+  Diff:
+    - - Responsible for customer feedback tracking and internal status summaries.
+    + - [rephrase: responsible for ->] customer feedback tracking and internal status summaries; replace the marked filler with a concrete, truthful action and add scope/result if available.
+  Why: Filler phrase "responsible for" is generic and should be replaced with specific work evidence.
+  Evidence required: What specific contribution, responsibility, project, or outcome does this phrase refer to? Can you support it with truthful scope, frequency, stakeholders, or result?
+- [weak-opener]
+  Before: - Worked on platform support and release coordination for internal operations teams.
+  Suggested: - [Action verb] Worked on platform support and release coordination for internal operations teams; add truthful scope/result if available.
+  Diff:
+    - - Worked on platform support and release coordination for internal operations teams.
+    + - [Action verb] Worked on platform support and release coordination for internal operations teams; add truthful scope/result if available.
+  Why: The bullet does not start with a recognized action verb, so the contribution may be harder to scan.
+  Evidence required: Which action did you personally take: built, led, improved, shipped, reduced, migrated, supported, or similar? Keep the original claim truthful; do not add responsibilities that are not in your source resume or notes.
+- [weak-opener]
+  Before: - Responsible for customer feedback tracking and internal status summaries.
+  Suggested: - [Action verb] Responsible for customer feedback tracking and internal status summaries; add truthful scope/result if available.
+  Diff:
+    - - Responsible for customer feedback tracking and internal status summaries.
+    + - [Action verb] Responsible for customer feedback tracking and internal status summaries; add truthful scope/result if available.
+  Why: The bullet does not start with a recognized action verb, so the contribution may be harder to scan.
+  Evidence required: Which action did you personally take: built, led, improved, shipped, reduced, migrated, supported, or similar? Keep the original claim truthful; do not add responsibilities that are not in your source resume or notes.
+- [missing-quantified-impact]
+  Before: - Worked on platform support and release coordination for internal operations teams.
+  Suggested: - Worked on platform support and release coordination for internal operations teams; add truthful metric for scale, frequency, time, cost, quality, users, or outcome if available.
+  Diff:
+    - - Worked on platform support and release coordination for internal operations teams.
+    + - Worked on platform support and release coordination for internal operations teams; add truthful metric for scale, frequency, time, cost, quality, users, or outcome if available.
+  Why: The bullet has no deterministic numeric evidence for scale, effort, or outcome.
+  Evidence required: Is there a truthful number for users, volume, time saved, cost, revenue, reliability, frequency, team size, or duration? If no metric exists, keep the bullet qualitative rather than inventing a number.
+- [missing-quantified-impact]
+  Before: - Improved onboarding docs for 5 new hires across support and QA.
+  Suggested: - Improved onboarding docs for 5 new hires across support and QA; add truthful metric for scale, frequency, time, cost, quality, users, or outcome if available.
+  Diff:
+    - - Improved onboarding docs for 5 new hires across support and QA.
+    + - Improved onboarding docs for 5 new hires across support and QA; add truthful metric for scale, frequency, time, cost, quality, users, or outcome if available.
+  Why: The bullet has no deterministic numeric evidence for scale, effort, or outcome.
+  Evidence required: Is there a truthful number for users, volume, time saved, cost, revenue, reliability, frequency, team size, or duration? If no metric exists, keep the bullet qualitative rather than inventing a number.
+
+Final Draft Acceptance Checklist
+- [required] truthfulness: Every content change is backed by source resume evidence, user-confirmed notes, or a clearly marked question.
+- [required] claims: No unsupported metrics, tools, titles, employers, dates, credentials, locations, or work authorization claims were added.
+- [required] job-match: Each job-specific edit maps to real resume evidence or is left as a user question instead of a claim.
+- [required] formatting: Headings, dates, bullets, tense, and punctuation are consistent enough for human and ATS scanning.
+- [required] privacy: Private drafts, source files, and run outputs are kept out of git and shared locations unless explicitly sanitized.
+
+Missing Job Keywords
+- analyst (1)
+- build (1)
+- communication (1)
+- improve (1)
+- lightweight (1)
+- partner (1)
+- readiness (1)
+- stakeholder (1)
+- tools (1)
+- workflow (1)
+- write (1)
+
+Run Metadata
+- Resume source: fake-resume.txt
+- Resume SHA-256: <sha256>
+- Job source: fake-job.txt
+- Job SHA-256: <sha256>

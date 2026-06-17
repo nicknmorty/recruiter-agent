@@ -1,0 +1,23 @@
+{
+  "id": "recruiter-agent-tool",
+  "name": "Recruiter Agent Tool",
+  "description": "Run the local deterministic recruiter-agent CLI (resume review, job-fit, research, application tracking). No external actions.",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "cliPath": {
+        "type": "string",
+        "description": "Absolute path to recruiter-agent bin/recruiter-agent.mjs. Defaults to ~/projects/active/recruiter-agent/bin/recruiter-agent.mjs."
+      }
+    }
+  },
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": [
+      "recruiter"
+    ]
+  }
+}

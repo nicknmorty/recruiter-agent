@@ -1,0 +1,3 @@
+ExampleSoft is hiring a Support Automation Analyst to improve support workflows, build lightweight Node.js tools, write clear documentation, and partner with QA teams on release readiness.
+
+Required skills include JavaScript, Node.js, support operations, ticket triage, workflow automation, documentation, QA coordination, and clear stakeholder communication.

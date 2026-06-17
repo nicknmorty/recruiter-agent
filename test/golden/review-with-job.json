@@ -1,0 +1,786 @@
+{
+  "schema": "recruiter-agent.resume-review.v0",
+  "generatedAt": "<generatedAt>",
+  "score": 75,
+  "topFindings": [
+    {
+      "severity": "medium",
+      "category": "job-match",
+      "message": "Hard requirements with no resume evidence: stakeholder."
+    },
+    {
+      "severity": "low",
+      "category": "wording",
+      "message": "Filler phrase detected: responsible for."
+    },
+    {
+      "severity": "low",
+      "category": "wording",
+      "message": "Filler phrase detected: worked on."
+    }
+  ],
+  "summary": {
+    "lineCount": 19,
+    "sectionCount": 4,
+    "bulletCount": 7,
+    "quantifiedBulletCount": 3,
+    "quantifiedBulletRatio": 0.43,
+    "actionVerbBulletCount": 5,
+    "actionVerbBulletRatio": 0.71,
+    "jobPostingCompared": true,
+    "userNotesCompared": false
+  },
+  "sections": [
+    "education",
+    "professional experience",
+    "skills",
+    "summary"
+  ],
+  "userNotes": {
+    "checked": false,
+    "keywords": [],
+    "missingResumeKeywords": []
+  },
+  "jobPostingSafety": {
+    "checked": true,
+    "risk": "low",
+    "flags": []
+  },
+  "jobPostingSignals": {
+    "checked": true,
+    "hardRequirements": [
+      {
+        "keyword": "automation",
+        "count": 1
+      },
+      {
+        "keyword": "communication",
+        "count": 1
+      },
+      {
+        "keyword": "coordination",
+        "count": 1
+      },
+      {
+        "keyword": "documentation",
+        "count": 1
+      },
+      {
+        "keyword": "javascript",
+        "count": 1
+      },
+      {
+        "keyword": "node.js",
+        "count": 1
+      },
+      {
+        "keyword": "operations",
+        "count": 1
+      },
+      {
+        "keyword": "stakeholder",
+        "count": 1
+      },
+      {
+        "keyword": "support",
+        "count": 1
+      },
+      {
+        "keyword": "ticket",
+        "count": 1
+      },
+      {
+        "keyword": "triage",
+        "count": 1
+      },
+      {
+        "keyword": "workflow",
+        "count": 1
+      }
+    ],
+    "niceToHaves": [],
+    "senioritySignals": [],
+    "domainKeywords": [
+      {
+        "keyword": "support",
+        "count": 3
+      },
+      {
+        "keyword": "automation",
+        "count": 2
+      },
+      {
+        "keyword": "documentation",
+        "count": 2
+      },
+      {
+        "keyword": "node.js",
+        "count": 2
+      },
+      {
+        "keyword": "analyst",
+        "count": 1
+      },
+      {
+        "keyword": "build",
+        "count": 1
+      },
+      {
+        "keyword": "communication",
+        "count": 1
+      },
+      {
+        "keyword": "coordination",
+        "count": 1
+      },
+      {
+        "keyword": "examplesoft",
+        "count": 1
+      },
+      {
+        "keyword": "improve",
+        "count": 1
+      },
+      {
+        "keyword": "javascript",
+        "count": 1
+      },
+      {
+        "keyword": "lightweight",
+        "count": 1
+      }
+    ]
+  },
+  "jobPostingSources": {
+    "checked": true,
+    "urls": []
+  },
+  "evidenceMap": {
+    "checked": true,
+    "hardRequirements": [
+      {
+        "keyword": "automation",
+        "concept": "automation",
+        "count": 1,
+        "status": "partial",
+        "matchedKeywords": [
+          "automation"
+        ],
+        "matchedBullets": [],
+        "matchedVia": []
+      },
+      {
+        "keyword": "communication",
+        "concept": "communication",
+        "count": 1,
+        "status": "partial",
+        "matchedKeywords": [
+          "communications",
+          "documentation"
+        ],
+        "matchedBullets": [],
+        "matchedVia": [
+          "documentation"
+        ]
+      },
+      {
+        "keyword": "coordination",
+        "concept": null,
+        "count": 1,
+        "status": "matched",
+        "matchedKeywords": [
+          "coordination"
+        ],
+        "matchedBullets": [
+          "- Worked on platform support and release coordination for internal operations teams."
+        ],
+        "matchedVia": []
+      },
+      {
+        "keyword": "documentation",
+        "concept": "communication",
+        "count": 1,
+        "status": "partial",
+        "matchedKeywords": [
+          "documentation",
+          "communications"
+        ],
+        "matchedBullets": [],
+        "matchedVia": [
+          "communication"
+        ]
+      },
+      {
+        "keyword": "javascript",
+        "concept": null,
+        "count": 1,
+        "status": "partial",
+        "matchedKeywords": [
+          "javascript"
+        ],
+        "matchedBullets": [],
+        "matchedVia": []
+      },
+      {
+        "keyword": "node.js",
+        "concept": null,
+        "count": 1,
+        "status": "matched",
+        "matchedKeywords": [
+          "node.js"
+        ],
+        "matchedBullets": [
+          "- Shipped a Node.js reporting script that saved 6 hours of manual spreadsheet work each week."
+        ],
+        "matchedVia": []
+      },
+      {
+        "keyword": "operations",
+        "concept": null,
+        "count": 1,
+        "status": "matched",
+        "matchedKeywords": [
+          "operations",
+          "operations-focused"
+        ],
+        "matchedBullets": [
+          "- Worked on platform support and release coordination for internal operations teams."
+        ],
+        "matchedVia": []
+      },
+      {
+        "keyword": "stakeholder",
+        "concept": null,
+        "count": 1,
+        "status": "missing",
+        "matchedKeywords": [],
+        "matchedBullets": [],
+        "matchedVia": []
+      },
+      {
+        "keyword": "support",
+        "concept": null,
+        "count": 1,
+        "status": "matched",
+        "matchedKeywords": [
+          "support"
+        ],
+        "matchedBullets": [
+          "- Built a ticket triage checklist used by 14 support teammates and reduced missed escalation notes by 32%.",
+          "- Worked on platform support and release coordination for internal operations teams.",
+          "- Improved onboarding docs for 5 new hires across support and QA."
+        ],
+        "matchedVia": []
+      },
+      {
+        "keyword": "ticket",
+        "concept": null,
+        "count": 1,
+        "status": "matched",
+        "matchedKeywords": [
+          "ticket"
+        ],
+        "matchedBullets": [
+          "- Built a ticket triage checklist used by 14 support teammates and reduced missed escalation notes by 32%."
+        ],
+        "matchedVia": []
+      },
+      {
+        "keyword": "triage",
+        "concept": null,
+        "count": 1,
+        "status": "matched",
+        "matchedKeywords": [
+          "triage"
+        ],
+        "matchedBullets": [
+          "- Built a ticket triage checklist used by 14 support teammates and reduced missed escalation notes by 32%."
+        ],
+        "matchedVia": []
+      },
+      {
+        "keyword": "workflow",
+        "concept": null,
+        "count": 1,
+        "status": "partial",
+        "matchedKeywords": [
+          "workflows"
+        ],
+        "matchedBullets": [],
+        "matchedVia": []
+      }
+    ]
+  },
+  "jobFit": {
+    "checked": true,
+    "score": 71,
+    "band": "moderate",
+    "counts": {
+      "matched": 6,
+      "partial": 5,
+      "missing": 1,
+      "total": 12
+    },
+    "explanation": "6 of 12 hard requirements have direct resume bullet evidence, 5 have keyword-only evidence, 1 have no deterministic evidence. Strengthen real bullet evidence for: automation, communication, documentation, javascript, workflow. Confirm whether these reflect real experience before claiming them: stakeholder. This deterministic fit signal reflects keyword/bullet overlap only, not a hiring decision."
+  },
+  "tailoringOpportunities": {
+    "checked": true,
+    "items": [
+      {
+        "requirement": "automation",
+        "status": "partial",
+        "type": "strengthen-evidence",
+        "recommendation": "Resume keyword evidence exists for automation, but no matching bullet was found.",
+        "question": "Do you have a truthful accomplishment, project, or responsibility that shows automation in action?"
+      },
+      {
+        "requirement": "communication",
+        "status": "partial",
+        "type": "strengthen-evidence",
+        "recommendation": "Resume keyword evidence exists for communication, but no matching bullet was found.",
+        "question": "Do you have a truthful accomplishment, project, or responsibility that shows communication in action?"
+      },
+      {
+        "requirement": "coordination",
+        "status": "matched",
+        "type": "preserve-strength",
+        "recommendation": "Keep coordination visible near the most relevant role or skills section.",
+        "question": null
+      },
+      {
+        "requirement": "documentation",
+        "status": "partial",
+        "type": "strengthen-evidence",
+        "recommendation": "Resume keyword evidence exists for documentation, but no matching bullet was found.",
+        "question": "Do you have a truthful accomplishment, project, or responsibility that shows documentation in action?"
+      },
+      {
+        "requirement": "javascript",
+        "status": "partial",
+        "type": "strengthen-evidence",
+        "recommendation": "Resume keyword evidence exists for javascript, but no matching bullet was found.",
+        "question": "Do you have a truthful accomplishment, project, or responsibility that shows javascript in action?"
+      },
+      {
+        "requirement": "node.js",
+        "status": "matched",
+        "type": "preserve-strength",
+        "recommendation": "Keep node.js visible near the most relevant role or skills section.",
+        "question": null
+      },
+      {
+        "requirement": "operations",
+        "status": "matched",
+        "type": "preserve-strength",
+        "recommendation": "Keep operations visible near the most relevant role or skills section.",
+        "question": null
+      },
+      {
+        "requirement": "stakeholder",
+        "status": "missing",
+        "type": "missing-evidence",
+        "recommendation": "No deterministic resume evidence was found for stakeholder. Do not add it unless it reflects real experience.",
+        "question": "Is stakeholder a real skill, tool, or responsibility you can support with an example?"
+      },
+      {
+        "requirement": "support",
+        "status": "matched",
+        "type": "preserve-strength",
+        "recommendation": "Keep support visible near the most relevant role or skills section.",
+        "question": null
+      },
+      {
+        "requirement": "ticket",
+        "status": "matched",
+        "type": "preserve-strength",
+        "recommendation": "Keep ticket visible near the most relevant role or skills section.",
+        "question": null
+      }
+    ]
+  },
+  "interviewTalkingPoints": {
+    "checked": true,
+    "items": [
+      {
+        "requirement": "automation",
+        "status": "partial",
+        "type": "clarify-evidence",
+        "talkingPoint": "Prepare a truthful, specific story that shows automation in action; the resume only lists it as a keyword.",
+        "evidence": "",
+        "question": "What real accomplishment best demonstrates automation?"
+      },
+      {
+        "requirement": "communication",
+        "status": "partial",
+        "type": "clarify-evidence",
+        "talkingPoint": "Prepare a truthful, specific story that shows communication in action; the resume only lists it as a keyword.",
+        "evidence": "",
+        "question": "What real accomplishment best demonstrates communication?"
+      },
+      {
+        "requirement": "coordination",
+        "status": "matched",
+        "type": "strength-story",
+        "talkingPoint": "Be ready to walk through a concrete coordination example from your resume.",
+        "evidence": "- Worked on platform support and release coordination for internal operations teams.",
+        "question": null
+      },
+      {
+        "requirement": "documentation",
+        "status": "partial",
+        "type": "clarify-evidence",
+        "talkingPoint": "Prepare a truthful, specific story that shows documentation in action; the resume only lists it as a keyword.",
+        "evidence": "",
+        "question": "What real accomplishment best demonstrates documentation?"
+      },
+      {
+        "requirement": "javascript",
+        "status": "partial",
+        "type": "clarify-evidence",
+        "talkingPoint": "Prepare a truthful, specific story that shows javascript in action; the resume only lists it as a keyword.",
+        "evidence": "",
+        "question": "What real accomplishment best demonstrates javascript?"
+      },
+      {
+        "requirement": "node.js",
+        "status": "matched",
+        "type": "strength-story",
+        "talkingPoint": "Be ready to walk through a concrete node.js example from your resume.",
+        "evidence": "- Shipped a Node.js reporting script that saved 6 hours of manual spreadsheet work each week.",
+        "question": null
+      },
+      {
+        "requirement": "operations",
+        "status": "matched",
+        "type": "strength-story",
+        "talkingPoint": "Be ready to walk through a concrete operations example from your resume.",
+        "evidence": "- Worked on platform support and release coordination for internal operations teams.",
+        "question": null
+      },
+      {
+        "requirement": "stakeholder",
+        "status": "missing",
+        "type": "address-gap",
+        "talkingPoint": "Decide honestly how to address stakeholder if asked; do not overstate experience you do not have.",
+        "evidence": "",
+        "question": "Do you have transferable or adjacent experience for stakeholder you can speak to truthfully?"
+      },
+      {
+        "requirement": "support",
+        "status": "matched",
+        "type": "strength-story",
+        "talkingPoint": "Be ready to walk through a concrete support example from your resume.",
+        "evidence": "- Built a ticket triage checklist used by 14 support teammates and reduced missed escalation notes by 32%.",
+        "question": null
+      },
+      {
+        "requirement": "ticket",
+        "status": "matched",
+        "type": "strength-story",
+        "talkingPoint": "Be ready to walk through a concrete ticket example from your resume.",
+        "evidence": "- Built a ticket triage checklist used by 14 support teammates and reduced missed escalation notes by 32%.",
+        "question": null
+      }
+    ]
+  },
+  "suggestedEdits": {
+    "checked": true,
+    "items": [
+      {
+        "type": "replace-filler",
+        "before": "- Worked on platform support and release coordination for internal operations teams.",
+        "suggested": "- [rephrase: worked on ->] platform support and release coordination for internal operations teams; replace the marked filler with a concrete, truthful action and add scope/result if available.",
+        "diff": [
+          {
+            "op": "remove",
+            "text": "- Worked on platform support and release coordination for internal operations teams."
+          },
+          {
+            "op": "add",
+            "text": "- [rephrase: worked on ->] platform support and release coordination for internal operations teams; replace the marked filler with a concrete, truthful action and add scope/result if available."
+          }
+        ],
+        "why": "Filler phrase \"worked on\" is generic and should be replaced with specific work evidence.",
+        "evidenceRequired": [
+          "What specific contribution, responsibility, project, or outcome does this phrase refer to?",
+          "Can you support it with truthful scope, frequency, stakeholders, or result?"
+        ]
+      },
+      {
+        "type": "replace-filler",
+        "before": "- Responsible for customer feedback tracking and internal status summaries.",
+        "suggested": "- [rephrase: responsible for ->] customer feedback tracking and internal status summaries; replace the marked filler with a concrete, truthful action and add scope/result if available.",
+        "diff": [
+          {
+            "op": "remove",
+            "text": "- Responsible for customer feedback tracking and internal status summaries."
+          },
+          {
+            "op": "add",
+            "text": "- [rephrase: responsible for ->] customer feedback tracking and internal status summaries; replace the marked filler with a concrete, truthful action and add scope/result if available."
+          }
+        ],
+        "why": "Filler phrase \"responsible for\" is generic and should be replaced with specific work evidence.",
+        "evidenceRequired": [
+          "What specific contribution, responsibility, project, or outcome does this phrase refer to?",
+          "Can you support it with truthful scope, frequency, stakeholders, or result?"
+        ]
+      },
+      {
+        "type": "weak-opener",
+        "before": "- Worked on platform support and release coordination for internal operations teams.",
+        "suggested": "- [Action verb] Worked on platform support and release coordination for internal operations teams; add truthful scope/result if available.",
+        "diff": [
+          {
+            "op": "remove",
+            "text": "- Worked on platform support and release coordination for internal operations teams."
+          },
+          {
+            "op": "add",
+            "text": "- [Action verb] Worked on platform support and release coordination for internal operations teams; add truthful scope/result if available."
+          }
+        ],
+        "why": "The bullet does not start with a recognized action verb, so the contribution may be harder to scan.",
+        "evidenceRequired": [
+          "Which action did you personally take: built, led, improved, shipped, reduced, migrated, supported, or similar?",
+          "Keep the original claim truthful; do not add responsibilities that are not in your source resume or notes."
+        ]
+      },
+      {
+        "type": "weak-opener",
+        "before": "- Responsible for customer feedback tracking and internal status summaries.",
+        "suggested": "- [Action verb] Responsible for customer feedback tracking and internal status summaries; add truthful scope/result if available.",
+        "diff": [
+          {
+            "op": "remove",
+            "text": "- Responsible for customer feedback tracking and internal status summaries."
+          },
+          {
+            "op": "add",
+            "text": "- [Action verb] Responsible for customer feedback tracking and internal status summaries; add truthful scope/result if available."
+          }
+        ],
+        "why": "The bullet does not start with a recognized action verb, so the contribution may be harder to scan.",
+        "evidenceRequired": [
+          "Which action did you personally take: built, led, improved, shipped, reduced, migrated, supported, or similar?",
+          "Keep the original claim truthful; do not add responsibilities that are not in your source resume or notes."
+        ]
+      },
+      {
+        "type": "missing-quantified-impact",
+        "before": "- Worked on platform support and release coordination for internal operations teams.",
+        "suggested": "- Worked on platform support and release coordination for internal operations teams; add truthful metric for scale, frequency, time, cost, quality, users, or outcome if available.",
+        "diff": [
+          {
+            "op": "remove",
+            "text": "- Worked on platform support and release coordination for internal operations teams."
+          },
+          {
+            "op": "add",
+            "text": "- Worked on platform support and release coordination for internal operations teams; add truthful metric for scale, frequency, time, cost, quality, users, or outcome if available."
+          }
+        ],
+        "why": "The bullet has no deterministic numeric evidence for scale, effort, or outcome.",
+        "evidenceRequired": [
+          "Is there a truthful number for users, volume, time saved, cost, revenue, reliability, frequency, team size, or duration?",
+          "If no metric exists, keep the bullet qualitative rather than inventing a number."
+        ]
+      },
+      {
+        "type": "missing-quantified-impact",
+        "before": "- Improved onboarding docs for 5 new hires across support and QA.",
+        "suggested": "- Improved onboarding docs for 5 new hires across support and QA; add truthful metric for scale, frequency, time, cost, quality, users, or outcome if available.",
+        "diff": [
+          {
+            "op": "remove",
+            "text": "- Improved onboarding docs for 5 new hires across support and QA."
+          },
+          {
+            "op": "add",
+            "text": "- Improved onboarding docs for 5 new hires across support and QA; add truthful metric for scale, frequency, time, cost, quality, users, or outcome if available."
+          }
+        ],
+        "why": "The bullet has no deterministic numeric evidence for scale, effort, or outcome.",
+        "evidenceRequired": [
+          "Is there a truthful number for users, volume, time saved, cost, revenue, reliability, frequency, team size, or duration?",
+          "If no metric exists, keep the bullet qualitative rather than inventing a number."
+        ]
+      }
+    ]
+  },
+  "topResumeKeywords": [
+    {
+      "keyword": "support",
+      "count": 6
+    },
+    {
+      "keyword": "internal",
+      "count": 3
+    },
+    {
+      "keyword": "notes",
+      "count": 3
+    },
+    {
+      "keyword": "operations",
+      "count": 3
+    },
+    {
+      "keyword": "documentation",
+      "count": 2
+    },
+    {
+      "keyword": "node.js",
+      "count": 2
+    },
+    {
+      "keyword": "release",
+      "count": 2
+    },
+    {
+      "keyword": "teams",
+      "count": 2
+    },
+    {
+      "keyword": "ticket",
+      "count": 2
+    },
+    {
+      "keyword": "triage",
+      "count": 2
+    },
+    {
+      "keyword": "workflows",
+      "count": 2
+    },
+    {
+      "keyword": "android",
+      "count": 1
+    }
+  ],
+  "missingJobKeywords": [
+    {
+      "keyword": "analyst",
+      "count": 1
+    },
+    {
+      "keyword": "build",
+      "count": 1
+    },
+    {
+      "keyword": "communication",
+      "count": 1
+    },
+    {
+      "keyword": "improve",
+      "count": 1
+    },
+    {
+      "keyword": "lightweight",
+      "count": 1
+    },
+    {
+      "keyword": "partner",
+      "count": 1
+    },
+    {
+      "keyword": "readiness",
+      "count": 1
+    },
+    {
+      "keyword": "stakeholder",
+      "count": 1
+    },
+    {
+      "keyword": "tools",
+      "count": 1
+    },
+    {
+      "keyword": "workflow",
+      "count": 1
+    },
+    {
+      "keyword": "write",
+      "count": 1
+    }
+  ],
+  "issues": [
+    {
+      "severity": "low",
+      "area": "wording",
+      "message": "Filler phrase detected: responsible for.",
+      "recommendation": "Replace generic traits with specific evidence from work, projects, or outcomes."
+    },
+    {
+      "severity": "low",
+      "area": "wording",
+      "message": "Filler phrase detected: worked on.",
+      "recommendation": "Replace generic traits with specific evidence from work, projects, or outcomes."
+    },
+    {
+      "severity": "medium",
+      "area": "job-match",
+      "message": "Job posting terms not found in resume: analyst, build, communication, improve, lightweight, partner, readiness, stakeholder, tools, workflow, write.",
+      "recommendation": "Only add missing terms when they truthfully describe real experience or relevant projects."
+    }
+  ],
+  "checklist": [
+    "Confirm every suggested edit is truthful and backed by real experience.",
+    "Map resume claims to the target posting without inventing skills, dates, employers, or credentials.",
+    "Prefer accomplishment bullets with action, scope, and result.",
+    "Keep formatting simple: clear headings, consistent dates, and readable bullets.",
+    "Save a reviewed copy before sending it to an employer."
+  ],
+  "finalDraftChecklist": {
+    "checked": true,
+    "items": [
+      {
+        "category": "truthfulness",
+        "required": true,
+        "item": "Every content change is backed by source resume evidence, user-confirmed notes, or a clearly marked question."
+      },
+      {
+        "category": "claims",
+        "required": true,
+        "item": "No unsupported metrics, tools, titles, employers, dates, credentials, locations, or work authorization claims were added."
+      },
+      {
+        "category": "job-match",
+        "required": true,
+        "item": "Each job-specific edit maps to real resume evidence or is left as a user question instead of a claim."
+      },
+      {
+        "category": "formatting",
+        "required": true,
+        "item": "Headings, dates, bullets, tense, and punctuation are consistent enough for human and ATS scanning."
+      },
+      {
+        "category": "privacy",
+        "required": true,
+        "item": "Private drafts, source files, and run outputs are kept out of git and shared locations unless explicitly sanitized."
+      }
+    ]
+  },
+  "run": {
+    "sourcePolicy": {
+      "pathDetail": "basename_only",
+      "digest": "sha256",
+      "privatePathsOmitted": true
+    },
+    "inputs": {
+      "resume": {
+        "fileName": "fake-resume.txt",
+        "byteLength": "<byteLength>",
+        "sha256": "<sha256>",
+        "inputFormat": "text"
+      },
+      "job": {
+        "fileName": "fake-job.txt",
+        "byteLength": "<byteLength>",
+        "sha256": "<sha256>",
+        "inputFormat": "text"
+      },
+      "notes": null
+    }
+  }
+}

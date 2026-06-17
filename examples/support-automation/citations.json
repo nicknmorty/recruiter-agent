@@ -1,0 +1,34 @@
+{
+  "schema": "recruiter-agent.citation-template.v1",
+  "topic": "company",
+  "roleTitle": "Support Automation Analyst",
+  "citations": [
+    {
+      "claim": "Company context",
+      "value": "Northstar Analytics describes itself as a customer intelligence platform for support and operations teams.",
+      "url": "https://northstar-analytics.example/about",
+      "sourceType": "direct_employer",
+      "accessedAt": "2026-06-05",
+      "confidence": "high",
+      "quote": "Customer intelligence platform for support and operations teams."
+    },
+    {
+      "claim": "Application workflow or posting freshness",
+      "value": "The Support Automation Analyst posting is listed on the employer careers page.",
+      "url": "https://northstar-analytics.example/careers/support-automation-analyst",
+      "sourceType": "direct_employer",
+      "accessedAt": "2026-06-05",
+      "confidence": "high",
+      "quote": "Support Automation Analyst."
+    },
+    {
+      "claim": "Compensation range",
+      "value": "Comparable remote support operations analyst roles are often listed between $75k and $105k base salary.",
+      "url": "https://salary-reference.example/remote-support-operations-analyst",
+      "sourceType": "compensation_aggregator",
+      "accessedAt": "2026-06-05",
+      "confidence": "medium",
+      "quote": "$75k to $105k base salary."
+    }
+  ]
+}

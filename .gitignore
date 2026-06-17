@@ -1,0 +1,16 @@
+# Private local artifacts
+/runs/*
+!/runs/.gitkeep
+/state/*
+!/state/.gitkeep
+/research/*
+!/research/.gitkeep
+
+# Dependencies and generated files
+/node_modules/
+/dist/
+/coverage/
+
+# OS/editor noise
+.DS_Store
+*.swp

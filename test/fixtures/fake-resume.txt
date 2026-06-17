@@ -1,0 +1,29 @@
+# Jordan Lee
+
+## Summary
+Operations-focused builder who improves internal tooling, documentation, and support workflows for small technical teams.
+
+## Professional Experience
+
+### Support Operations Specialist, ExampleSoft
+2021-2024
+
+- Built a ticket triage checklist used by 14 support teammates and reduced missed escalation notes by 32%.
+- Shipped a Node.js reporting script that saved 6 hours of manual spreadsheet work each week.
+- Worked on platform support and release coordination for internal operations teams.
+- Improved onboarding docs for 5 new hires across support and QA.
+
+### QA Coordinator, Demo Wallet Co.
+2018-2021
+
+- Managed weekly regression notes for mobile releases across iOS and Android.
+- Created reproducible bug reports that helped engineers resolve 120 customer-impacting issues.
+- Responsible for customer feedback tracking and internal status summaries.
+
+## Skills
+
+Node.js, JavaScript, QA workflows, support operations, documentation, release notes, ticket triage, automation
+
+## Education
+
+Example State University, B.A. Communications

@@ -1,0 +1,5 @@
+Target emphasis:
+- Keep the resume truthful and operations-focused.
+- Do not claim Zendesk administration beyond dashboarding and support workflow experience.
+- Emphasize Node.js automation, SQL summaries, QA partnership, and documentation.
+- Ask before adding salary expectations, work authorization, or recruiter outreach language.

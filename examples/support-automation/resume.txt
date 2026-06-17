@@ -1,0 +1,34 @@
+# Jordan Parker
+
+## Summary
+Support-operations analyst who builds lightweight automation, improves ticket
+triage quality, and turns messy operational workflows into reliable internal
+tools and documentation.
+
+## Professional Experience
+
+### Support Automation Specialist, HarborDesk
+2022-2026
+
+- Built a Node.js intake-quality dashboard that reduced missed escalation fields by 31% across 18 support teammates.
+- Automated weekly Zendesk backlog exports into SQL summaries, saving 7 hours of manual spreadsheet cleanup per week.
+- Partnered with QA and engineering to triage 140 customer-impacting defects and document repeatable reproduction steps.
+- Wrote onboarding playbooks and macros for 9 new support hires, improving first-month ticket handling consistency.
+- Created stakeholder-ready release notes for platform fixes, billing updates, and workflow changes.
+
+### Customer Support Operations Coordinator, Northwind Apps
+2019-2022
+
+- Maintained ticket taxonomy, escalation rules, and reporting notes for a 12-person support team.
+- Built Google Sheets formulas and lightweight scripts to flag overdue SLA queues before customer escalations.
+- Coordinated weekly bug review meetings with product managers, QA testers, and support leads.
+
+## Skills
+
+Node.js, JavaScript, SQL, Zendesk, ticket triage, workflow automation, QA
+coordination, documentation, release notes, customer support operations,
+stakeholder communication, dashboarding
+
+## Education
+
+Example State University, B.A. Communications
