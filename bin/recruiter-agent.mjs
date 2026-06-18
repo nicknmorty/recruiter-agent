@@ -45,7 +45,7 @@ function usage(exitCode = 0) {
     "  recruiter-agent research --job <path> [--resume <path>] [--notes <path>] [--topic role|company|compensation|workflow|application] [--citation-template] [--citations <citations.json>] [--format text|json] [--out <path-or-dir>]",
     "  recruiter-agent track list|due|add|status|contact|followup ...   (application workflow tracking; run `track --help`)",
     "",
-    "Review, Bottom Feeder handoff, Track B research packets, and application tracking are deterministic and local-first. They do not call an LLM, send resume data anywhere, or take external actions.",
+    "Review, Bottom Feeder handoff (for the public clawSean workflow), Track B research packets, and application tracking are deterministic and local-first. They do not call an LLM, send resume data anywhere, or take external actions.",
   ].join("\n");
   const stream = exitCode === 0 ? process.stdout : process.stderr;
   stream.write(`${output}\n`);

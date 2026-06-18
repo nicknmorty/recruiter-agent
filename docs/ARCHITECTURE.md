@@ -17,7 +17,7 @@ The core stays simple:
 - Resume editor skill: workflow contract for critique, formatting, evidence preservation, and revised drafts.
 - Job intelligence layer: workflow for posting ingestion, role expectation research, and fit analysis.
 - Research layer: future source fetchers and summarizers for jobs, companies, and compensation.
-- Bottom Feeder handoff: deterministic CLI brief builder for scoped research passes.
+- Bottom Feeder handoff: deterministic CLI brief builder for scoped research passes using the public clawSean workflow.
 - State layer: local private state under `state/`.
 - Documentation layer: project scope, risks, and runbooks.
 
@@ -47,4 +47,5 @@ are easy to inspect.
 `recruiter-agent bottom-feeder` reuses the deterministic review signals to
 generate a scoped research brief for the external Bottom Feeder workflow. This
 keeps the app local-first while giving future research passes a stable
-input/output contract.
+input/output contract. Bottom Feeder is a public research workflow by clawSean;
+recruiter-agent only packages local inputs for that workflow.

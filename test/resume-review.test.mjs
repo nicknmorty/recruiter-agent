@@ -740,6 +740,7 @@ test("Bottom Feeder brief creates a scoped research handoff from job signals", (
   assert.equal(brief.schema, "recruiter-agent.bottom-feeder-brief.v1");
   assert.equal(brief.generatedAt, "2026-06-03T00:00:00.000Z");
   assert.equal(brief.mode, "bottom_feeder_handoff");
+  assert.equal(brief.attribution.credit, "Bottom Feeder is a public research workflow by clawSean.");
   assert.equal(brief.topic, "role");
   assert.equal(brief.roleTitle, "Senior Support Automation Analyst");
   assert.ok(brief.researchQuestions.some((question) => question.includes("generic expectations")));
@@ -748,6 +749,7 @@ test("Bottom Feeder brief creates a scoped research handoff from job signals", (
   assert.ok(brief.resumeComparison.missingEvidence.includes("ticket"));
   assert.ok(brief.safety.guardrails.some((guardrail) => guardrail.includes("Do not upload resumes")));
   assert.match(text, /Bottom Feeder Research Brief/);
+  assert.match(text, /public research workflow by clawSean/);
   assert.match(text, /Missing evidence: .*ticket/);
   assert.match(text, /Target path: research\/YYYY-MM-DD-topic.md/);
 });
@@ -917,6 +919,7 @@ test("CLI renders a Bottom Feeder JSON handoff for a job and resume", () => {
   assert.equal(parsed.schema, "recruiter-agent.bottom-feeder-brief.v1");
   assert.equal(parsed.topic, "application");
   assert.equal(parsed.mode, "bottom_feeder_handoff");
+  assert.equal(parsed.attribution.credit, "Bottom Feeder is a public research workflow by clawSean.");
   assert.equal(parsed.roleTitle, "Support Automation Analyst");
   assert.ok(parsed.researchQuestions.some((question) => question.includes("interview or cover-letter angles")));
   assert.ok(parsed.jobSignals.hardRequirements.includes("node.js"));

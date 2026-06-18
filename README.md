@@ -100,7 +100,8 @@ sample scenario files, and optional PDF extraction availability.
 `recruiter-agent bottom-feeder` creates a deterministic research brief from a
 supplied job posting and optional resume/notes context. It does not browse or
 call an LLM; it packages the local review signals into a scoped handoff for a
-Bottom Feeder research pass.
+Bottom Feeder research pass. Bottom Feeder is a public research workflow by
+clawSean; recruiter-agent only prepares the local handoff packet.
 
 ```bash
 node bin/recruiter-agent.mjs bottom-feeder --job path/to/job.txt
