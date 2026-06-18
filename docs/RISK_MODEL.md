@@ -22,6 +22,6 @@
 
 ## Open Questions
 
-- Which resume source format should V0 optimize for first?
+- Which resume source format should the core optimize for first?
 - Should the first implementation be pure CLI, OpenClaw skill, or both?
 - What minimum tests are needed before using it on real applications?

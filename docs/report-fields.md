@@ -110,7 +110,7 @@ Statuses are deterministic:
   resume but not in a supporting bullet.
 - `missing` - no matching resume evidence was found.
 
-### Concept matching (V2 Track A)
+### Concept matching
 
 Matching is concept-aware via a curated, offline skill lexicon
 (`lib/skill-lexicon.mjs`). A requirement is satisfied by its own keyword OR by

@@ -4,27 +4,27 @@ Recruiter Agent is a local-first project for helping users turn career goals, re
 
 The project starts as a deterministic CLI and graduates toward an OpenClaw extension only after the workflow is useful, auditable, and safe with personal career data.
 
-## Roadmap
+## Capabilities
 
-### V0 - Resume Editing
+### Resume Editing
 
 - Improve resume formatting, structure, wording, and section ordering.
 - Preserve user intent while making accomplishments clearer and more specific.
 - Support targeted review passes for content, grammar, ATS readability, and consistency.
 
-### V1 - Job-Aware Resume Assistant
+### Job-Aware Resume Assistant
 
 - Accept pasted job postings and compare them against the current resume.
 - Identify role expectations, required skills, seniority signals, and missing evidence.
 - Suggest truthful resume adjustments and supporting interview talking points.
 
-### V2 - Tailored Application Research
+### Tailored Application Research
 
 - Produce tailored resume variants and cover-letter/raw-note drafts.
 - Research company context, compensation signals, benefits, employee reviews, and role fit.
 - Keep source links, uncertainty, and date-sensitive claims visible.
 
-### V3 - Application Workflow
+### Application Workflow
 
 - Track target roles, status, deadlines, contacts, and follow-ups.
 - Integrate job boards, email/manual application notes, and recruiter outreach.
@@ -47,9 +47,9 @@ The project starts as a deterministic CLI and graduates toward an OpenClaw exten
 - `runs/` - local run artifacts; ignored by git.
 - `state/` - local private state; ignored by git.
 
-## V0 CLI
+## CLI
 
-The current MVP is a deterministic, local-first CLI. It does not call an LLM or
+It is a deterministic, local-first CLI. It does not call an LLM or
 send resume/job text anywhere.
 
 ```bash
@@ -95,7 +95,7 @@ Use `npm run doctor` for a local preflight before legitimate testing. It checks
 Node support, privacy-oriented gitignore patterns for `runs/` and `state/`,
 sample scenario files, and optional PDF extraction availability.
 
-## V1 Bottom Feeder Handoff
+## Bottom Feeder Handoff
 
 `recruiter-agent bottom-feeder` creates a deterministic research brief from a
 supplied job posting and optional resume/notes context. It does not browse or
@@ -112,7 +112,7 @@ Topics: `role`, `company`, `compensation`, `workflow`, `application`.
 Directory outputs receive dated `bottom-feeder-brief-*.md` or
 `bottom-feeder-brief-*.json` filenames.
 
-## V2 Track B Research Packets
+## Research Packets
 
 `recruiter-agent research` builds on the Bottom Feeder handoff and produces a
 deterministic Track B application research packet. It still does not browse or
@@ -141,19 +141,15 @@ or unsupported claims out of `citedFindings`.
 
 ## Current Status
 
-V2 Track A core matching and the first Track B research-packet layer are
-implemented as deterministic, local-first CLI behavior: requirement extraction,
-concept-aware evidence mapping, a job-fit score with explanation, interview
-talking points, Bottom Feeder handoff briefs, and source-aware research packets
-all run offline with no LLM and no browsing. See `PROJECT_STATUS.md`,
-`BACKLOG.md`, and `docs/SCOPE.md`.
+Core matching and the research-packet layer are implemented as deterministic,
+local-first CLI behavior: requirement extraction, concept-aware evidence
+mapping, a job-fit score with explanation, interview talking points, handoff
+briefs, and source-aware research packets all run offline with no LLM and no
+browsing. See `docs/SCOPE.md`.
 
 ## Key Docs
 
 - `docs/input-format.md` - resume, job-posting, and notes formatting conventions with fake examples.
 - `docs/OPERATOR_TESTING.md` - local preflight and legitimate testing workflow.
 - `docs/report-fields.md` - JSON report fields, deterministic suggestions, and fake examples.
-- `docs/V0_V1_SPEC.md` - first usable resume-editor and job-aware resume-assistant contract.
 - `docs/SAFETY_BOUNDARIES.md` - privacy, prompt-injection, and external-action rules.
-- `docs/UPSTREAM_NOTES.md` - notes from a shallow `MadsLorentzen/ai-job-search` scan.
-- `runbooks/bottom-feeder-resource-crawl.md` - focused research crawl pattern for role and market intelligence.

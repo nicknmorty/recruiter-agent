@@ -29,7 +29,7 @@ Before any agent with file or tool access processes external text, run a prescre
 - hidden or irrelevant prompt-like text,
 - tracking or scraping concerns.
 
-The V0 CLI includes deterministic job-posting prescreening for these categories
+The CLI includes deterministic job-posting prescreening for these categories
 when `review --job <path>` is supplied. These checks are conservative tripwires,
 not a replacement for human review or future model-level safety workflows.
 
@@ -65,4 +65,4 @@ Approval should include the destination, exact payload or document, account used
 
 ## Integration Boundary
 
-V0/V1 should work without credentials. Integrations for LinkedIn, job boards, email, or ATS systems belong later and must be read-first before any submission path exists.
+The local core should work without credentials. Integrations for LinkedIn, job boards, email, or ATS systems belong later and must be read-first before any submission path exists.
