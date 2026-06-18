@@ -1,8 +1,8 @@
 # Architecture
 
-## V0 Shape
+## Shape
 
-The first version should stay simple:
+The core stays simple:
 
 - A local CLI accepts resume text or files.
 - Workflows produce structured review notes and revised drafts.
@@ -14,8 +14,8 @@ The first version should stay simple:
 - CLI: developer entry point in `bin/recruiter-agent.mjs`.
 - Deterministic review library: `lib/resume-review.mjs`.
 - Workflow layer: future scripts or OpenClaw skills that orchestrate review passes.
-- Resume editor skill: V0 workflow contract for critique, formatting, evidence preservation, and revised drafts.
-- Job intelligence layer: V1 workflow for posting ingestion, role expectation research, and fit analysis.
+- Resume editor skill: workflow contract for critique, formatting, evidence preservation, and revised drafts.
+- Job intelligence layer: workflow for posting ingestion, role expectation research, and fit analysis.
 - Research layer: future source fetchers and summarizers for jobs, companies, and compensation.
 - Bottom Feeder handoff: deterministic CLI brief builder for scoped research passes.
 - State layer: local private state under `state/`.
@@ -27,13 +27,13 @@ The first version should stay simple:
 - Treat resumes and job histories as sensitive personal data.
 - Preserve provenance for edits and recommendations.
 - Prefer explicit user approval before sending, publishing, or applying.
-- Keep V0 small enough to validate manually before building integrations.
+- Keep the core small enough to validate manually before building integrations.
 
-## Version Boundary
+## Integration Boundary
 
-Do not build job-board auth, automated applications, or email sending until the local resume and job-analysis loops are useful with fake fixtures and manually supplied postings. Integrations should consume structured outputs from V0/V1 instead of becoming the first implementation surface.
+Do not build job-board auth, automated applications, or email sending until the local resume and job-analysis loops are useful with fake fixtures and manually supplied postings. Integrations should consume structured outputs from the local core instead of becoming the first implementation surface.
 
-## Implemented MVP
+## Implemented
 
 `recruiter-agent review` reads plain-text resume input and optionally a
 plain-text job posting. It returns either a text report or structured JSON and

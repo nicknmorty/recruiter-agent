@@ -33,7 +33,7 @@ then the active pipeline counts.
 
 ## Commands
 
-### Application tracking (V3)
+### Application tracking
 
 - List everything: `track list`
 - What is due / follow-ups: `track due` (optionally `--on YYYY-MM-DD`)
@@ -46,13 +46,13 @@ then the active pipeline counts.
 Ids are short hashes printed when an application is added; `track list` shows
 them too. Reuse the same id for status/contact/followup updates.
 
-### Resume review and job-fit (V1/V2)
+### Resume review and job-fit
 
 - `review --resume <path> [--job <path>] [--notes <path>] [--format text|json]`
   produces a deterministic resume review, and when a job is supplied, a job-fit
   score, evidence map, interview talking points, and truthful tailoring.
 
-### Application research (V2 Track B)
+### Application research
 
 - `research --job <path> [--resume <path>] [--topic role|company|compensation|workflow|application]`
   produces a deterministic research packet (source status, uncertainty, risks,
